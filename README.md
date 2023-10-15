@@ -16,6 +16,8 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 ### About the Author
-Name : Kunghadkar Pratik Awadhut
-Roll no. : 21BCS058
+Name : Kunghadkar Pratik Awadhut,
+
+Roll no. : 21BCS058,
+
 Email : 21bcs058@iiitdwd.ac.in
