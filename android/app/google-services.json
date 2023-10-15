@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "461001808593",
+    "project_id": "data-recieve-1f209",
+    "storage_bucket": "data-recieve-1f209.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461001808593:android:ae7952d85a6fa0116a43f0",
+        "android_client_info": {
+          "package_name": "com.example.data_retrive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoLxbaKw0HnJTuJh1jrqCTjc_JOof_l1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
