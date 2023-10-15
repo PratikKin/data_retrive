@@ -11,7 +11,7 @@ class User {
 
   factory User.fromJson(Map<String, dynamic> json) {
     return User(
-      id: json['id'] ?? '', // Provide an empty string as the default value
+      id: json['id'] ?? '', // Provide an empty string id as the default value
       name: json['name'],
       number: json['number'],
     );

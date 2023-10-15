@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
         padding: const EdgeInsets.all(10.0),
         child: Column(
           children: [
-            // Input fields for user data
+            //Input fields for the data entry
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20.0),
@@ -92,10 +92,11 @@ class _HomePageState extends State<HomePage> {
             SizedBox(
               height: 20.0,
             ),
-
+            //buttons for either going to display the existing data or adding data to list
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
+                //add button
                 ElevatedButton(
                   style: ButtonStyle(
                       backgroundColor: MaterialStateColor.resolveWith(
@@ -119,7 +120,7 @@ class _HomePageState extends State<HomePage> {
 
                     _clearTextFields();
                   },
-                  child: Text(isEditing ? 'Update' : 'Add'),
+                  child: const Text('Add'),
                 ),
 
                 // Show button
@@ -146,6 +147,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
+  // to clear the fields after their use.
   void _clearTextFields() {
     nameController.clear();
     numberController.clear();

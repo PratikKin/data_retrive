@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:loading_animation_widget/loading_animation_widget.dart';
 
 import 'EditUserPage.dart';
 import 'User.dart';
@@ -60,7 +61,12 @@ class UserListPage extends StatelessWidget {
           } else if (snapshot.hasError) {
             return Text('Error: ${snapshot.error}');
           }
-          return CircularProgressIndicator();
+          return Center(
+            child: LoadingAnimationWidget.threeRotatingDots(
+              color: Colors.white,
+              size: 200.0,
+            ),
+          );
         },
       ),
     );

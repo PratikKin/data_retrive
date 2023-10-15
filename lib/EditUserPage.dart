@@ -37,29 +37,29 @@ class _EditUserPageState extends State<EditUserPage> {
         padding: const EdgeInsets.all(10.0),
         child: Column(
           children: [
-            // Input fields for user data
+            // Input fields for editing user data
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20.0),
                 border: Border.all(color: Colors.white10),
               ),
               child: ClipRRect(
-                // ClipRRect is used to apply border radius to the background
                 borderRadius: BorderRadius.circular(20.0),
                 child: BackdropFilter(
-                    filter: ImageFilter.blur(
-                        sigmaX: 10,
-                        sigmaY: 10), // Adjust the blur values as needed
-                    child: Container(
-                      padding: EdgeInsets.symmetric(horizontal: 18.0),
-                      color: Colors.white.withOpacity(0.2),
-                      child: TextField(
-                        controller: nameController,
-                        decoration: InputDecoration(
-                          labelText: 'Name',
-                        ),
+                  filter: ImageFilter.blur(
+                      sigmaX: 10,
+                      sigmaY: 10), // Adjust the blur values as needed
+                  child: Container(
+                    padding: EdgeInsets.symmetric(horizontal: 18.0),
+                    color: Colors.white.withOpacity(0.2),
+                    child: TextField(
+                      controller: nameController,
+                      decoration: InputDecoration(
+                        labelText: 'Name',
                       ),
-                    )),
+                    ),
+                  ),
+                ),
               ),
             ),
             SizedBox(
@@ -71,7 +71,6 @@ class _EditUserPageState extends State<EditUserPage> {
                 border: Border.all(color: Colors.white10),
               ),
               child: ClipRRect(
-                // ClipRRect is used to apply border radius to the background
                 borderRadius: BorderRadius.circular(20.0),
                 child: BackdropFilter(
                   filter: ImageFilter.blur(
